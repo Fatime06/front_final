@@ -1,0 +1,194 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  position: absolute;
+  width: 100%;
+}
+.carouselItem .P1 {
+  color: white;
+  font-size: 33px;
+  font-weight: bold;
+}
+.carouselItem .P2 {
+  color: white;
+  font-size: 20px;
+}
+.carouselItem a {
+  background-color: yellow;
+  color: black;
+  display: block;
+  width: 123px;
+  height: 39px;
+  text-align: center;
+  padding-top: 7px;
+}
+.headerTop {
+  display: flex;
+  justify-content: space-between;
+}
+.headerTopRight {
+  display: flex;
+  align-items: center;
+}
+.headerTopRight span {
+  margin-left: 10px;
+  color: white;
+}
+
+.headerTopRight i {
+  color: white;
+}
+
+.headerTopLeft {
+  display: flex;
+}
+
+.headerTopLeft ul {
+  display: flex;
+  justify-content: start;
+  margin: 0;
+}
+
+.headerTopLeft ul li {
+  list-style: none;
+  margin-right: 10px;
+}
+.headerTopLeft span {
+  color: white;
+}
+.headerTopLeft i {
+  color: white;
+}
+.Li ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+}
+.Li ul li a {
+  color: white;
+}
+.Li ul li {
+  margin-left: 19px;
+}
+.headerBottom {
+  display: flex;
+  align-items: center;
+}
+.Li ul li i {
+  margin-left: 5px;
+  font-size: 8px;
+}
+.Search {
+  position: relative;
+  margin-left: 39px;
+}
+.Search i {
+  position: absolute;
+  top: 1px;
+  right: 1px;
+  display: inline-block;
+  background-color: yellow;
+  width: 31px;
+  height: 25px;
+  text-align: center;
+  padding-top: 6px;
+}
+.Search input {
+  width: 145px;
+}
+.Cart {
+  margin-left: 21px;
+  color: white !important;
+}
+.fa-cart-shopping {
+  color: white;
+}
+.slideSection {
+  background-image: url(../image/wh-pattern.png);
+  height: 644px;
+}
+.slideSection img {
+  width: 136px;
+}
+/* .carousel-item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+} */
+
+.carouselItems {
+  position: relative;
+}
+
+.carouselItem {
+  width: 400px;
+  padding-top: 128px;
+}
+.dishes img {
+  height: 500px;
+}
+.dishes {
+  display: flex;
+  align-items: flex-end;
+
+  position: absolute;
+  bottom: 0px;
+}
+
+.carouselCard {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  align-items: center;
+  height: 100vh;
+  position: relative;
+}
+
+.carouselCard .cardTitle {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  gap: 20px;
+}
+
+.cardTitle .title {
+  font-size: 40px;
+  font-weight: 700;
+  color: white;
+}
+
+.carouselCard .cardImage {
+  width: 500px;
+  height: 450px;
+}
+
+.cardImage img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.specialImages {
+  display: flex;
+  align-items: flex-start;
+  gap: 30px;
+  width: auto;
+  position: absolute;
+  bottom: -10px;
+  right: 50px;
+}
+
+.cardTitle .button{
+  outline: none;
+  border: none;
+  background: yellow;
+  padding: 10px 15px;
+}
