@@ -186,9 +186,54 @@ header {
   right: 50px;
 }
 
-.cardTitle .button{
+.cardTitle .button {
   outline: none;
   border: none;
   background: yellow;
   padding: 10px 15px;
+}
+
+.productsItems {
+  width: 1100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+  padding-top: 35px;
+  /* position: absolute; */
+  top: 80%;
+  left: 15%;
+}
+
+.products .productItem .productImage {
+  margin-bottom: 15px;
+}
+
+.products .productItem .productImage img {
+  width: 320px;
+}
+
+.products .productDesc p {
+  width: 350px;
+}
+.galeryCategories ul li a i {
+  color: yellow;
+}
+
+.galeryCategories {
+  display: flex;
+}
+
+.galeryCategories ul {
+  display: flex;
+  margin: 0;
+}
+
+.galeryCategories ul li {
+  list-style: none;
+}
+
+.galleryTop {
+  display: flex;
+  justify-content: space-between;
 }
