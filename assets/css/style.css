@@ -34,6 +34,7 @@ header {
   display: flex;
   align-items: center;
 }
+
 .headerTopRight span {
   margin-left: 10px;
   color: white;
@@ -138,9 +139,13 @@ header {
 .dishes {
   display: flex;
   align-items: flex-end;
-
   position: absolute;
   bottom: 0px;
+}
+
+.cardTitle {
+  padding-bottom: 80px;
+  padding-left: 50px;
 }
 
 .carouselCard {
@@ -189,7 +194,8 @@ header {
 .cardTitle .button {
   outline: none;
   border: none;
-  background: yellow;
+  width: 150px;
+  background: rgb(218, 184, 13);
   padding: 10px 15px;
 }
 
@@ -217,7 +223,17 @@ header {
   width: 350px;
 }
 .galeryCategories ul li a i {
-  color: yellow;
+  color: rgb(218, 184, 13);
+  margin-right: 12px;
+  font-size: 20px;
+}
+
+.galeryCategories ul li a {
+  margin-right: 30px;
+  font-size: 20px;
+}
+.gallery {
+  background-color: black;
 }
 
 .galeryCategories {
@@ -236,4 +252,66 @@ header {
 .galleryTop {
   display: flex;
   justify-content: space-between;
+}
+.galleryTitle .artG {
+  font-family: "Shadows Into Light", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 46px;
+  color: white;
+}
+
+.galeryCategories a {
+  text-decoration: none;
+  color: white;
+}
+
+.carouselCard .desc {
+  width: 380px;
+}
+
+.galleryTop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.galeryCategories ul {
+  padding-top: 35px;
+}
+
+.galleryButton a {
+  text-decoration: none;
+  background-color: white;
+  color: black;
+  display: inline-block;
+  width: 160px;
+  height: 40px;
+  text-align: center;
+  padding-top: 9px;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.gallery {
+  height: 400px;
+}
+
+.galeryCategories a:hover {
+  color: rgb(238, 202, 19);
+}
+
+.galleryButton a i {
+  margin-right: 7px;
+  font-size: 14px;
+}
+.galleryBottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  gap: 20px;
+}
+.galleryBottom img {
+  width: 280px;
 }
