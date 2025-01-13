@@ -315,3 +315,136 @@ header {
 .galleryBottom img {
   width: 280px;
 }
+.piquant {
+  display: flex;
+  align-items: center;
+  height: 500px;
+}
+
+.piquant .piquantLeft {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.piquantTittle {
+  font-size: 32px;
+  font-weight: 750;
+}
+.piquantText {
+  font-size: 19px;
+}
+.piquantButton {
+  background-color: rgb(238, 202, 19);
+  color: black;
+  display: inline-block;
+  text-decoration: none !important;
+  width: 152px;
+  height: 40px;
+  text-align: center;
+  padding-top: 9px;
+  font-weight: 700;
+}
+
+.piquantButton:hover {
+  color: white;
+  background-color: black;
+}
+.cardItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  height: 400px;
+
+}
+.cardItem img {
+  width: 400px !important;
+  height: 240px !important;
+}
+.cardItem a {
+  color: black;
+  font-size: 20px;
+  font-weight: 700;
+}
+.cardItem p {
+  font-size: 18px;
+}
+
+.swiper-wrapper {
+  display: flex;
+  gap: 60px;
+}
+
+.swiperTop{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.cardItemsTitle{
+  padding-top: 50px;
+}
+
+.cardItemsTitle p{
+color: white;
+font-size: 33px;
+font-weight: 700;
+}
+
+.cardItemsText p{
+  color: white;
+  text-align: center;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+
+
+.swiper-slide {
+  background-color: white;
+  width: 400px;
+  margin-right: 30px;
+  padding-top: 40px;
+ 
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: transparent;
+  display: flex;
+  justify-content: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.costs {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  display: flex;
+  height: 700px;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.parallax {
+  height: 500px;
+  background-image: url(../image/new-parallax-1.jpg);
+  background-attachment: fixed;
+  height: 100vh;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
