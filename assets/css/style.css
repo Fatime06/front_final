@@ -435,7 +435,7 @@ header {
   justify-content: center;
 }
 
-.modification{
+.modification {
   margin-bottom: 87px;
   padding-top: 50px;
 }
@@ -454,43 +454,43 @@ header {
   font-size: 33px;
   font-weight: 700;
 }
-.itemText p{
+.itemText p {
   color: rgb(119, 117, 117);
-  text-align:start;
+  text-align: start;
   font-weight: 600;
   font-size: 20px;
 }
-.itemImage{
+.itemImage {
   display: flex;
   flex-direction: row;
   justify-content: center;
   gap: 25px;
 }
-.itemImage img{
+.itemImage img {
   width: 430px;
 }
-.itemImage1{
+.itemImage1 {
   position: relative;
 }
-.itemImage1 p{
+.itemImage1 p {
   position: absolute;
   position: absolute;
   bottom: 0;
   color: white;
   left: 17px;
   font-size: 25px;
-  font-weight: 700
+  font-weight: 700;
 }
-.taste{
+.taste {
   width: 255px;
 }
-.save{
+.save {
   width: 268px;
 }
-.discover{
+.discover {
   width: 275px;
 }
-.itemImage1 span{
+.itemImage1 span {
   color: yellow;
 }
 .swiper {
@@ -507,7 +507,7 @@ header {
   display: block;
   width: 100%;
 }
-.parallax1{
+.parallax1 {
   height: 500px;
   background-image: url(../image/new-parallax-2.jpg);
   background-attachment: fixed;
@@ -517,29 +517,28 @@ header {
   background-size: cover;
 }
 
-.itemTittless{
+.itemTittless {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.itemTittle2{
+.itemTittle2 {
   padding-top: 50px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  
 }
-.itemTittle2 img{
+.itemTittle2 img {
   text-align: center;
   width: 30px;
 }
-.itemTittle2 p{
+.itemTittle2 p {
   color: white;
   font-size: 33px;
   font-weight: 700;
 }
 
-.itemText2{
+.itemText2 {
   color: white;
   text-align: center;
   font-weight: 600;
@@ -548,22 +547,26 @@ header {
   display: flex;
   align-items: center;
 }
-.names p{
+.names p {
   color: white;
   margin-top: 25px;
   font-size: 25px;
   font-weight: 600;
 }
-.delicious{
+.delicious {
   font-family: "Shadows Into Light", serif;
   font-weight: 400;
   font-style: normal;
   color: white;
 }
-.stars{
+.stars {
   color: yellow;
 }
-.newsTittle p{
+.news {
+  margin-bottom: 87px;
+  padding-top: 50px;
+}
+.newsTittle p {
   padding-top: 50px;
   display: flex;
   flex-direction: column;
@@ -571,7 +574,7 @@ header {
   font-weight: 700;
   font-size: 36px;
 }
-.newsText p{
+.newsText p {
   color: rgb(119, 117, 117);
   text-align: center;
   font-weight: 400;
@@ -580,35 +583,291 @@ header {
   align-items: center;
 }
 
-.aimages1{
+.aimages1 {
   border: 2px solid gray;
 }
-.aimages1 img{
+.aimages1 img {
   height: 224px;
   margin-bottom: 10px;
 }
-.aimages1 a{
+.aimages1 a {
   text-decoration: none;
   color: black;
   font-size: 26px;
   font-weight: 700;
 }
-.aimages1 p{
+.aimages1 p {
   color: rgb(119, 117, 117);
   font-size: 20px;
   padding-left: 20px;
 }
 
-.aimages1 .desc{
-padding-left: 20px;
+.aimages1 .desc {
+  padding-left: 20px;
 }
 
-.aimages1 .title{
+.aimages1 .title {
   padding-left: 20px;
   font-size: 22px;
 }
 
-.newsCards{
+.newsCards {
   display: flex;
   gap: 25px;
+}
+
+.parallax2 {
+  height: 500px;
+  background-image: url(../image/parallax-3.jpg);
+  background-attachment: fixed;
+  height: 100vh;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.parallax2 img {
+  max-width: 100%;
+  height: auto;
+}
+.awardRow {
+  padding-top: 50px;
+  align-items: center;
+}
+
+.awardTittle {
+  font-size: 32px;
+  font-weight: 750;
+  margin-bottom: 20px;
+}
+.awardText {
+  font-size: 19px;
+  color: rgb(119, 117, 117);
+}
+.awardLeft img {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.info {
+  font-size: 25px;
+  font-weight: 750;
+  margin-bottom: 40px;
+}
+.contactInfo i {
+  margin-right: 10px;
+}
+.contactInfo {
+  display: flex;
+  gap: 30px;
+}
+.awardRight img {
+  height: 484px;
+  width: 478px;
+}
+
+.awardRight {
+  position: relative;
+}
+.opennigHours {
+  position: absolute;
+  top: 45px;
+  left: 53px;
+  padding: 16px;
+  color: white;
+  border: 1px solid gray;
+}
+
+.openText {
+  text-align: center;
+}
+.opennigHoursP {
+  font-size: 20px;
+}
+.opennigHoursP i {
+  margin-right: 10px;
+}
+.openText {
+  font-size: 30px;
+  font-weight: 700;
+}
+.openText span {
+  color: yellow;
+}
+.reservation {
+  background-color: rgb(228, 225, 225);
+}
+
+.person {
+  padding-top: 40px;
+  position: relative;
+}
+
+.reservationInputs {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.book a {
+  text-decoration: none;
+  background-color: yellow;
+  color: black;
+  display: inline-block;
+  width: 182px;
+  height: 35px;
+  text-align: center;
+  padding-top: 6px;
+}
+.book i {
+  margin-right: 6px;
+}
+.reservationInputs input,
+select {
+  width: 210px;
+  height: 40px;
+  border: 3px solid black;
+}
+.reservationInputs p {
+  font-size: 22px;
+  margin-left: 30px;
+}
+.person p {
+  color: rgb(158, 156, 156);
+  font-size: 17px;
+}
+.addedIcon {
+  position: absolute;
+  top: 40px;
+  right: -40px;
+  border: 1px solid black;
+  width: 43px;
+  height: 40px;
+  text-align: center;
+  padding:10px 27px 0 0;
+  font-size: 20px;
+  border: 3px solid black;
+  padding-left: 10px;
+}
+.date {
+  position: relative;
+}
+.dateIcon {
+  top: 0;
+}
+.dateTime {
+  position: relative;
+}
+
+input[type="date"]::-webkit-inner-spin-button,
+input[type="date"]::-webkit-calendar-picker-indicator {
+  display: none;
+  -webkit-appearance: none;
+}
+
+input[type="time"]::-webkit-calendar-picker-indicator {
+  display: none;
+}
+select {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+}
+.head {
+  background-color: black;
+}
+.head p {
+  color: white;
+}
+.first {
+  width: 400px;
+  padding-top: 20px;
+}
+.first i {
+  margin-right: 10px;
+}
+.first img {
+  margin-bottom: 15px;
+}
+.first,
+.second li {
+  list-style: none;
+}
+.first,
+.second a {
+  text-decoration: none;
+  color: white;
+}
+.posts {
+  font-size: 30px;
+}
+
+.first,
+.second ul {
+  margin: 0;
+}
+
+.second {
+  width: 400px;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.insta {
+  font-size: 25px;
+}
+.third{
+  width: 400px;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.twitter{
+  font-size: 25px;
+}
+.third span{
+  color: white;
+}
+.third{ 
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.second ul li::after{
+  content: "";
+  width: 100%;
+  height: 1px;
+  background-color: gray;
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.foot{
+  background-color: black;
+  display: flex;
+}
+.leftFoot p{
+  color: white;
+}
+.rightFoot{
+  display: flex;
+}
+.rightFoot p{
+  color: white;
+}
+.rightFoot ul{
+  display: flex;
+  gap: 20px;
+}
+.rightFoot li{
+  list-style: none;
+}
+.rightFoot a{
+  color: white;
+  text-decoration: none;
+}
+footer{
+  background-color: black;
 }
